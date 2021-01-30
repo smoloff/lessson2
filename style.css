@@ -1,3 +1,17 @@
 h1 {
   color:red;
 }
+.heading {
+  color:blue;
+}
+.center-cnt {
+  text-align: center;
+  color:brown;
+}
+ul {
+  list-style: none;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+}
