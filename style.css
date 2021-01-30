@@ -1,17 +1,42 @@
-h1 {
-  color:red;
+* {
+  /* * apply to all tags */
+  font-family: Arial, Helvetica, sans-serif;
 }
-.heading {
-  color:blue;
+
+a {
+  /* a, p ... apply style to tags */
+  text-decoration: none;
+  flex:1;
 }
-.center-cnt {
-  text-align: center;
-  color:brown;
-}
+
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+.heading {
+  color: blue;
+}
+
+.header {
+  display: flex;  
+}
+
 .nav-list {
   display: flex;
   flex-direction: row;
+  flex:3;  
+}
+.nav-list> li:not(:nth-child(3)) {
+  margin-right: 10px;
+}
+
+.center-cnt {
+  /* align text to center */
+  text-align: center;
+  color: gray;
+}
+.empty-cnt{
+  flex:1;
 }
